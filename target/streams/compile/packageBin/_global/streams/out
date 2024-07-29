@@ -1,0 +1,51 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/scala_2.11-1.10.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MM$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/MM$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Inventory$$anonfun$displayInventory$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/Inventory$$anonfun$displayInventory$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EvenSum$$anonfun$sumEvenNumbers$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/EvenSum$$anonfun$sumEvenNumbers$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PatternMatching.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/PatternMatching.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ArithmeticMean$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/ArithmeticMean$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Collatz$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/Collatz$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StringFormatter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/StringFormatter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PatternMatching$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/PatternMatching$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StringFormatter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/StringFormatter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NewList$$anonfun$getInput$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/NewList$$anonfun$getInput$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Inventory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/Inventory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NewList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/NewList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StringFormatter$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/StringFormatter$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StringFormatter$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/StringFormatter$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MM.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/MM.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EvenSum.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/EvenSum.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NewList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/NewList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ArithmeticMean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/ArithmeticMean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Inventory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/Inventory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reverse_string.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/reverse_string.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NewList$$anonfun$filterStrings$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/NewList$$anonfun$filterStrings$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reverse_string$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/reverse_string$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EvenSum$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/EvenSum$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Collatz.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kavi/Documents/UCSC 2024/scala/target/scala-2.11/classes/Collatz.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
