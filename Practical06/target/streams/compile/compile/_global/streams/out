@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kavi/Documents/UCSC 2024/scala/Practicalo6/P06_Q01.scala:86:9: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (T1, T2, T3)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, (String, Int, Double))[0m
+[0m[[0m[31merror[0m] [0m[0m    for((name,qty,price) <- inventory1){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
