@@ -36,8 +36,8 @@ object CaesarCiper {
     }
 
     def main(arg: Array[String]) : Unit = {
-        val shift = -90;
-        val text = "ABCD";
+        val shift = 1;
+        val text = "Av!@#";
         println("\n\n------------------------------------");
         
         val newString = Encrypt(shift,text); 

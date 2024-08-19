@@ -1,0 +1,1357 @@
+2024.08.19 21:34:13 INFO  Started: Metals version 1.3.5 in folders '/home/kavi/Documents/UCSC 2024/scala/Practical09' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@59e5f4f7]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2586a392]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@59e5f4f7]
+2024.08.19 21:34:13 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 21:34:14 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 21:34:15 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.08.19 21:34:17 INFO  Running List(/home/kavi/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -cp, /home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.4.1/cli_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M28/case-app_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.10/coursier-launcher_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.10/coursier-proxy-setup-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.13/slf4j-nop-2.0.13.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.7/core_2.13-3.9.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.4.1/build-module_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.4.1/config_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.4.1/scala3-graal_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.4.1/specification-level_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.2/sourcecode_3-0.4.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M28/case-app-annotations_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M28/case-app-util_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.10/coursier-cache_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.10/coursier-core_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.12.0/scala-collection-compat_3-2.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.7.9/core_2.13-1.7.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-shared_2.13.14/4.9.8/semanticdb-shared_2.13.14-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.4/test-runner_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.10.2/os-lib_3-0.10.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.0/pprint_3-0.9.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.16.0/scalajs-sbt-test-adapter_2.13-1.16.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.4.1/options_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.4.1/directives_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.4.1/scala-cli-bsp-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.4.1/test-runner_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.4.1/tasty-lib_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.10/coursier-util_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.3.0/scala-xml_2.13-2.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.14/scala-reflect-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.9.8/scalameta_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.17/scalapb-runtime_2.13-0.11.17.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.4/tools_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/junit-interface/0.13.3/junit-interface-0.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.0/geny_3-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.0/fansi_3-0.5.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.2/bloop-config_2.13-2.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.4.1/core_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.1/using_directives-1.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.4.1/build-macros_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.9.8/parsers_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.14/scalap-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.17/lenses_2.13-0.11.17.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.12.0/scala-collection-compat_2.13-2.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.4/nir_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.4/util_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.17-sc-2/bloop-rifle_2.13-1.5.17-sc-2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.10/coursier-jvm_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.9.8/trees_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.14/scala-compiler-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.10/coursier_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.10/coursier-env_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.9.8/common_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.2/sourcecode_2.13-0.4.2.jar, scala.cli.ScalaCli, bsp, /home/kavi/Documents/UCSC 2024/scala/Practical09)
+2024.08.19 21:34:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kavi/Documents/UCSC 2024/scala/Practical09/.metals/bsp.trace.json or /home/kavi/.cache/metals/bsp.trace.json
+2024.08.19 21:34:19 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:34:23 INFO  Connected to Scala CLI server v1.4.1
+2024.08.19 21:34:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:34:24 INFO  time: compiled Practical09_f4dd477a3a in 0.39s
+2024.08.19 21:34:26 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 21:34:28 INFO  time: indexed workspace in 4.95s
+2024.08.19 21:36:54 INFO  Scala CLI started for /home/kavi/Documents/UCSC 2024/scala/Practical09
+2024.08.19 21:36:54 WARN  no build tool detected in workspace '/home/kavi/Documents/UCSC 2024/scala/Practical09'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.08.19 21:36:54 WARN  Build server is not auto-connectable.
+2024.08.19 21:36:54 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:36:54 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:37:00 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:37:02 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:37:03 ERROR /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:709)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:247)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.19 21:37:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:37:03 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 21:37:04 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:37:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+Aug 19, 2024 9:37:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+2024.08.19 21:37:08 INFO  time: compiled Practical09_f4dd477a3a in 0.82s
+2024.08.19 21:37:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:37:11 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:37:11 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:37:11 INFO  time: compiled Practical09_f4dd477a3a in 0.61s
+2024.08.19 21:37:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:37:13 INFO  time: compiled Practical09_f4dd477a3a in 0.38s
+2024.08.19 21:37:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:37:16 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 21:37:17 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:37:17 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 21:38:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:26 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 21:38:32 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:32 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:38:37 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:37 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:38:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:39 INFO  time: compiled Practical09_f4dd477a3a in 0.39s
+2024.08.19 21:38:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:42 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 21:38:53 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:53 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 21:38:55 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:55 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:38:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:38:57 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 21:39:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:39:01 INFO  time: compiled Practical09_f4dd477a3a in 0.37s
+2024.08.19 21:39:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:39:05 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 21:39:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:39:09 INFO  time: compiled Practical09_f4dd477a3a in 0.1s
+2024.08.19 21:39:19 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:39:19 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:40:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:18 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 21:40:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:22 INFO  time: compiled Practical09_f4dd477a3a in 0.1s
+2024.08.19 21:40:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:24 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:40:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:36 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+Aug 19, 2024 9:40:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 440
+2024.08.19 21:40:38 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:38 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 21:40:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:40 INFO  time: compiled Practical09_f4dd477a3a in 0.1s
+2024.08.19 21:40:45 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:45 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:40:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:47 INFO  time: compiled Practical09_f4dd477a3a in 96ms
+2024.08.19 21:40:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:54 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:40:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:57 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:40:59 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:40:59 INFO  time: compiled Practical09_f4dd477a3a in 89ms
+2024.08.19 21:41:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:41:03 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:41:45 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:41:45 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 21:41:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:41:47 INFO  time: compiled Practical09_f4dd477a3a in 0.1s
+2024.08.19 21:41:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:41:51 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 21:41:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:41:54 INFO  time: compiled Practical09_f4dd477a3a in 0.1s
+2024.08.19 21:42:38 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:42:38 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 21:42:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:42:48 INFO  time: compiled Practical09_f4dd477a3a in 0.43s
+2024.08.19 21:42:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:42:50 INFO  time: compiled Practical09_f4dd477a3a in 0.5s
+2024.08.19 21:42:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:42:54 INFO  time: compiled Practical09_f4dd477a3a in 0.48s
+2024.08.19 21:42:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:42:56 INFO  time: compiled Practical09_f4dd477a3a in 0.46s
+2024.08.19 21:43:20 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:43:20 INFO  time: compiled Practical09_f4dd477a3a in 0.5s
+2024.08.19 21:43:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:43:24 INFO  time: compiled Practical09_f4dd477a3a in 0.35s
+2024.08.19 21:43:37 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:43:37 INFO  time: compiled Practical09_f4dd477a3a in 0.49s
+2024.08.19 21:43:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:43:40 INFO  time: compiled Practical09_f4dd477a3a in 90ms
+2024.08.19 21:43:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:43:42 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+Aug 19, 2024 9:43:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 776
+2024.08.19 21:43:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:43:44 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 21:43:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:43:47 INFO  time: compiled Practical09_f4dd477a3a in 86ms
+2024.08.19 21:44:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:02 INFO  time: compiled Practical09_f4dd477a3a in 79ms
+2024.08.19 21:44:04 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:04 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 21:44:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:05 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 21:44:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:08 INFO  time: compiled Practical09_f4dd477a3a in 83ms
+2024.08.19 21:44:10 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:10 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:44:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:12 INFO  time: compiled Practical09_f4dd477a3a in 83ms
+2024.08.19 21:44:19 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:19 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 21:44:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:22 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:44:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:23 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:44:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:26 INFO  time: compiled Practical09_f4dd477a3a in 96ms
+2024.08.19 21:44:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:29 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:44:31 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:31 INFO  time: compiled Practical09_f4dd477a3a in 91ms
+2024.08.19 21:44:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:33 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 21:44:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:36 INFO  time: compiled Practical09_f4dd477a3a in 0.5s
+2024.08.19 21:44:37 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:44:38 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:38 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:44:38 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:44:38 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:44:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:38 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:44:39 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 21:44:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:40 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 21:44:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:42 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 21:44:42 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 21:44:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:44:43 INFO  time: compiled Practical09_f4dd477a3a in 0.25s
+2024.08.19 21:45:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:06 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 21:45:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:13 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 21:45:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:22 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:45:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:24 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 21:45:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:39 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 21:45:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:40 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 21:45:46 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:46 INFO  time: compiled Practical09_f4dd477a3a in 0.4s
+2024.08.19 21:45:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:48 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 21:45:53 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:53 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 21:45:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:45:57 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 21:46:04 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:46:04 INFO  time: compiled Practical09_f4dd477a3a in 0.31s
+2024.08.19 21:46:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:46:11 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 21:46:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:46:43 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+Aug 19, 2024 9:46:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1249
+2024.08.19 21:46:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:46:48 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:46:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:46:50 INFO  time: compiled Practical09_f4dd477a3a in 0.25s
+2024.08.19 21:46:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:46:54 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 21:47:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:00 INFO  time: compiled Practical09_f4dd477a3a in 0.34s
+2024.08.19 21:47:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:09 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 21:47:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:12 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 21:47:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:15 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+Aug 19, 2024 9:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1398
+2024.08.19 21:47:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:40 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 21:47:41 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:41 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:47:45 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:45 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 21:47:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:47:54 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 21:48:04 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:48:04 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:48:10 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:48:10 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 21:48:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:48:13 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 21:48:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:48:15 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 21:48:52 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:48:52 INFO  time: compiled Practical09_f4dd477a3a in 0.43s
+Aug 19, 2024 9:48:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1551
+Aug 19, 2024 9:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1575
+2024.08.19 21:48:59 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:48:59 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 21:49:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:01 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 21:49:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:07 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 21:49:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:13 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:49:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:15 INFO  time: compiled Practical09_f4dd477a3a in 83ms
+2024.08.19 21:49:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:18 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 21:49:21 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:21 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 21:49:34 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:34 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 21:49:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:49:50 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+Aug 19, 2024 9:51:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1746
+2024.08.19 21:51:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:51:36 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+Aug 19, 2024 9:51:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1768
+2024.08.19 21:51:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:51:40 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 21:51:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:51:42 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 21:51:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:51:43 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 21:51:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:51:51 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 21:51:55 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:51:55 INFO  time: compiled Practical09_f4dd477a3a in 0.43s
+2024.08.19 21:52:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:06 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 21:52:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:08 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 21:52:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:12 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 21:52:20 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:20 INFO  time: compiled Practical09_f4dd477a3a in 96ms
+2024.08.19 21:52:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:23 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 21:52:25 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:25 INFO  time: compiled Practical09_f4dd477a3a in 78ms
+2024.08.19 21:52:28 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:28 INFO  time: compiled Practical09_f4dd477a3a in 85ms
+Aug 19, 2024 9:52:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1951
+2024.08.19 21:52:32 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:32 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:52:34 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:34 INFO  time: compiled Practical09_f4dd477a3a in 77ms
+2024.08.19 21:52:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:47 INFO  time: compiled Practical09_f4dd477a3a in 78ms
+2024.08.19 21:52:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:49 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 21:52:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:52:51 INFO  time: compiled Practical09_f4dd477a3a in 0.81s
+Aug 19, 2024 9:53:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2087
+Aug 19, 2024 9:55:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2286
+2024.08.19 21:56:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:56:16 INFO  time: compiled Practical09_f4dd477a3a in 0.51s
+2024.08.19 21:56:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:56:24 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 21:56:31 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:56:31 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:56:31 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:56:31 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 21:56:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:56:33 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+Aug 19, 2024 9:57:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2472
+2024.08.19 21:57:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:57:14 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:57:20 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:57:20 INFO  time: compiled Practical09_f4dd477a3a in 96ms
+2024.08.19 21:57:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:57:22 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 21:57:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:57:24 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:57:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:57:29 INFO  time: compiled Practical09_f4dd477a3a in 84ms
+2024.08.19 21:58:38 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:38 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:58:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:39 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:58:41 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:41 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:58:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:42 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+Aug 19, 2024 9:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2688
+2024.08.19 21:58:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:47 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 21:58:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:51 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 21:58:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:54 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 21:58:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:58:56 INFO  time: compiled Practical09_f4dd477a3a in 87ms
+2024.08.19 21:59:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:01 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 21:59:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:03 INFO  time: compiled Practical09_f4dd477a3a in 76ms
+2024.08.19 21:59:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:06 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 21:59:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:08 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 21:59:10 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:10 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 21:59:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:18 INFO  time: compiled Practical09_f4dd477a3a in 73ms
+2024.08.19 21:59:28 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:28 INFO  time: compiled Practical09_f4dd477a3a in 0.48s
+2024.08.19 21:59:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:48 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 21:59:58 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 21:59:58 INFO  time: compiled Practical09_f4dd477a3a in 70ms
+2024.08.19 22:00:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:00:01 INFO  time: compiled Practical09_f4dd477a3a in 0.53s
+2024.08.19 22:00:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:00:02 INFO  time: compiled Practical09_f4dd477a3a in 0.49s
+2024.08.19 22:00:04 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:00:04 INFO  time: compiled Practical09_f4dd477a3a in 0.39s
+2024.08.19 22:00:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:00:09 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 22:00:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:00:14 INFO  time: compiled Practical09_f4dd477a3a in 0.42s
+2024.08.19 22:00:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:00:16 INFO  time: compiled Practical09_f4dd477a3a in 0.38s
+2024.08.19 22:00:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:00:57 INFO  time: compiled Practical09_f4dd477a3a in 0.46s
+2024.08.19 22:01:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:00 INFO  time: compiled Practical09_f4dd477a3a in 0.55s
+2024.08.19 22:01:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:02 INFO  time: compiled Practical09_f4dd477a3a in 0.41s
+2024.08.19 22:01:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:03 INFO  time: compiled Practical09_f4dd477a3a in 0.42s
+2024.08.19 22:01:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:05 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 22:01:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:07 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 22:01:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:11 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 22:01:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:12 INFO  time: compiled Practical09_f4dd477a3a in 0.38s
+2024.08.19 22:01:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:15 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 22:01:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:48 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 22:01:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:49 INFO  time: compiled Practical09_f4dd477a3a in 0.35s
+2024.08.19 22:01:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:01:56 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 22:02:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:07 INFO  time: compiled Practical09_f4dd477a3a in 0.36s
+2024.08.19 22:02:17 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:17 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 22:02:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:18 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 22:02:21 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:21 INFO  time: compiled Practical09_f4dd477a3a in 0.51s
+2024.08.19 22:02:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:22 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 22:02:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:26 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 22:02:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:29 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 22:02:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:30 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 22:02:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:33 INFO  time: compiled Practical09_f4dd477a3a in 0.34s
+2024.08.19 22:02:34 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:34 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+Aug 19, 2024 10:02:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3357
+2024.08.19 22:02:37 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:37 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:02:38 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:38 INFO  time: compiled Practical09_f4dd477a3a in 0.31s
+2024.08.19 22:02:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:40 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 22:02:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:43 INFO  time: compiled Practical09_f4dd477a3a in 97ms
+2024.08.19 22:02:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:44 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 22:02:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:02:48 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 22:03:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:03:54 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 22:04:32 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:04:32 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 22:04:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:04:36 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:04:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:04:42 INFO  time: compiled Practical09_f4dd477a3a in 89ms
+2024.08.19 22:04:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:04:44 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 22:04:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:04:49 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 22:04:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:04:51 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:05:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:00 INFO  time: compiled Practical09_f4dd477a3a in 0.35s
+Aug 19, 2024 10:05:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3584
+2024.08.19 22:05:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:09 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 22:05:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:12 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:05:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:14 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 22:05:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:49 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:05:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:56 INFO  time: compiled Practical09_f4dd477a3a in 87ms
+2024.08.19 22:05:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:57 INFO  time: compiled Practical09_f4dd477a3a in 0.38s
+2024.08.19 22:05:59 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:05:59 INFO  time: compiled Practical09_f4dd477a3a in 0.34s
+2024.08.19 22:06:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:06:01 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:09:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:09:47 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 22:09:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:09:50 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:09:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:09:54 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:09:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:09:56 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 22:09:59 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:09:59 INFO  time: compiled Practical09_f4dd477a3a in 0.36s
+2024.08.19 22:10:20 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:20 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 22:10:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:23 INFO  time: compiled Practical09_f4dd477a3a in 99ms
+2024.08.19 22:10:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:30 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+Aug 19, 2024 10:10:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3847
+2024.08.19 22:10:32 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:32 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 22:10:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:42 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 22:10:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:44 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:10:46 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:46 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 22:10:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:47 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 22:10:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:51 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 22:10:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:54 INFO  time: compiled Practical09_f4dd477a3a in 0.48s
+2024.08.19 22:10:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:10:57 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 22:11:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:11:05 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+Aug 19, 2024 10:11:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4030
+Aug 19, 2024 10:11:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4031
+2024.08.19 22:11:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:11:36 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 22:12:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:12:00 INFO  time: compiled Practical09_f4dd477a3a in 0.36s
+2024.08.19 22:18:21 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:18:21 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 22:21:35 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:21:35 INFO  time: compiled Practical09_f4dd477a3a in 0.53s
+2024.08.19 22:21:37 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:21:37 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:21:38 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 22:21:39 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 22:21:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:21:40 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 22:21:40 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 22:21:41 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 22:21:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:21:42 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 22:21:43 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q01.scala
+2024.08.19 22:21:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:21:44 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:24:25 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:24:26 WARN  No build server connected
+2024.08.19 22:24:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:24:26 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:24:26 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:24:26 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:27:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:53 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:27:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:54 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:54 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:55 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:55 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:55 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:55 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:55 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:27:55 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:55 INFO  time: code lens generation in 1.13s
+2024.08.19 22:27:56 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:56 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:27:56 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:56 ERROR /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:709)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:247)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.19 22:27:56 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:27:56 WARN  no build target for: /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:27:56 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:28:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:06 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 22:28:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:09 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:28:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:11 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:28:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:12 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+Aug 19, 2024 10:28:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4393
+2024.08.19 22:28:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:14 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 22:28:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:15 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 22:28:17 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:17 INFO  time: compiled Practical09_f4dd477a3a in 93ms
+2024.08.19 22:28:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:26 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:28:28 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:28:28 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:29:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:29:49 INFO  time: compiled Practical09_f4dd477a3a in 89ms
+2024.08.19 22:30:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:00 INFO  time: compiled Practical09_f4dd477a3a in 70ms
+2024.08.19 22:30:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:02 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 22:30:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:15 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 22:30:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:23 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:30:25 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:25 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 22:30:27 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:27 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:30:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:30 INFO  time: compiled Practical09_f4dd477a3a in 46ms
+2024.08.19 22:30:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:33 INFO  time: compiled Practical09_f4dd477a3a in 64ms
+2024.08.19 22:30:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:43 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 22:30:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:43 INFO  time: compiled Practical09_f4dd477a3a in 53ms
+2024.08.19 22:30:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:30:48 INFO  time: compiled Practical09_f4dd477a3a in 88ms
+2024.08.19 22:31:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:08 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:31:10 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:10 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 22:31:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:12 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:31:12 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:13 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:14 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:31:15 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:16 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:16 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 22:31:16 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:17 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:17 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:31:17 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:18 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:18 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:18 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:19 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:20 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:20 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:22 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:31:22 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:23 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:31:24 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:38 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:38 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:39 INFO  time: compiled Practical09_f4dd477a3a in 80ms
+2024.08.19 22:31:39 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:40 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:31:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:40 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+Aug 19, 2024 10:31:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4845
+2024.08.19 22:31:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:43 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:31:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:50 INFO  time: compiled Practical09_f4dd477a3a in 66ms
+2024.08.19 22:31:52 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:52 INFO  time: compiled Practical09_f4dd477a3a in 87ms
+2024.08.19 22:31:53 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:53 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:31:58 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:58 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:31:59 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:31:59 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:32:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:01 INFO  time: compiled Practical09_f4dd477a3a in 95ms
+2024.08.19 22:32:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:02 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 22:32:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:06 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 22:32:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:09 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:32:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:14 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 22:32:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:16 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+Aug 19, 2024 10:32:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5023
+2024.08.19 22:32:19 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:19 INFO  time: compiled Practical09_f4dd477a3a in 82ms
+2024.08.19 22:32:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:22 INFO  time: compiled Practical09_f4dd477a3a in 81ms
+2024.08.19 22:32:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:26 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 22:32:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:30 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:32:32 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:32 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 22:32:35 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:35 INFO  time: compiled Practical09_f4dd477a3a in 88ms
+2024.08.19 22:32:38 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:38 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:32:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:42 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+Aug 19, 2024 10:32:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5138
+2024.08.19 22:32:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:47 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 22:32:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:32:49 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 22:33:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:02 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 22:33:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:07 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:33:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:09 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 22:33:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:11 INFO  time: compiled Practical09_f4dd477a3a in 0.31s
+2024.08.19 22:33:17 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:17 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 22:33:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:22 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 22:33:27 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:27 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:33:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:33 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:33:37 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:37 INFO  time: compiled Practical09_f4dd477a3a in 0.36s
+2024.08.19 22:33:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:39 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:33:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:47 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 22:33:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:49 INFO  time: compiled Practical09_f4dd477a3a in 0.35s
+2024.08.19 22:33:52 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:52 INFO  time: compiled Practical09_f4dd477a3a in 0.36s
+2024.08.19 22:33:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:54 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+Aug 19, 2024 10:33:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5450
+2024.08.19 22:33:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:56 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+Aug 19, 2024 10:33:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5464
+2024.08.19 22:33:58 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:33:58 INFO  time: compiled Practical09_f4dd477a3a in 91ms
+2024.08.19 22:34:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:06 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 22:34:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:11 INFO  time: compiled Practical09_f4dd477a3a in 91ms
+2024.08.19 22:34:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:14 INFO  time: compiled Practical09_f4dd477a3a in 62ms
+2024.08.19 22:34:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:16 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:34:20 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:20 INFO  time: compiled Practical09_f4dd477a3a in 51ms
+2024.08.19 22:34:21 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:21 INFO  time: compiled Practical09_f4dd477a3a in 69ms
+2024.08.19 22:34:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:23 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 22:34:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:24 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 22:34:27 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:27 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 22:34:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:30 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 22:34:32 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:32 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 22:34:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:43 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:34:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:47 INFO  time: compiled Practical09_f4dd477a3a in 0.34s
+2024.08.19 22:34:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:50 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:34:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:34:54 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 22:35:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:01 INFO  time: compiled Practical09_f4dd477a3a in 76ms
+2024.08.19 22:35:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:02 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 22:35:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:05 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 22:35:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:09 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:35:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:12 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:35:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:18 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 22:35:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:26 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:35:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:27 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 22:35:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:30 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 22:35:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:49 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 22:35:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:51 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 22:35:53 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:53 INFO  time: compiled Practical09_f4dd477a3a in 56ms
+2024.08.19 22:35:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:35:57 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:36:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:07 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:36:10 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:10 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 22:36:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:11 INFO  time: compiled Practical09_f4dd477a3a in 0.39s
+2024.08.19 22:36:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:14 INFO  time: compiled Practical09_f4dd477a3a in 0.35s
+2024.08.19 22:36:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:16 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 22:36:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:18 INFO  time: compiled Practical09_f4dd477a3a in 0.39s
+2024.08.19 22:36:19 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:19 INFO  time: compiled Practical09_f4dd477a3a in 0.31s
+2024.08.19 22:36:21 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:21 INFO  time: compiled Practical09_f4dd477a3a in 0.25s
+2024.08.19 22:36:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:23 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:36:22 INFO  time: compiled Practical09_f4dd477a3a in 0.56s
+2024.08.19 22:36:23 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q02.scala
+2024.08.19 22:36:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:24 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 22:36:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:33 INFO  time: compiled Practical09_f4dd477a3a in 89ms
+2024.08.19 22:36:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:36 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+Aug 19, 2024 10:36:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6206
+2024.08.19 22:36:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:43 INFO  time: compiled Practical09_f4dd477a3a in 76ms
+2024.08.19 22:36:46 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:46 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 22:36:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:36:51 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 22:37:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:06 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:37:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:08 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 22:37:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:11 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:37:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:13 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:37:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:26 INFO  time: compiled Practical09_f4dd477a3a in 0.25s
+2024.08.19 22:37:27 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:27 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 22:37:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:30 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+Aug 19, 2024 10:37:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6405
+2024.08.19 22:37:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:49 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 22:37:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:51 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 22:37:58 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:37:58 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 22:38:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:02 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 22:38:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:05 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:38:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:07 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 22:38:09 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:09 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:38:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:14 INFO  time: compiled Practical09_f4dd477a3a in 0.41s
+2024.08.19 22:38:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:24 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 22:38:27 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:27 INFO  time: compiled Practical09_f4dd477a3a in 86ms
+2024.08.19 22:38:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:29 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 22:38:34 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:34 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:38:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+Aug 19, 2024 10:38:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6660
+2024.08.19 22:38:44 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+Aug 19, 2024 10:38:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6693
+2024.08.19 22:38:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:49 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 22:38:53 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:38:53 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 22:39:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:39:03 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:39:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:39:05 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 22:39:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:39:07 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 22:39:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:39:12 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 22:39:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:39:13 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 22:39:17 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:39:17 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 22:40:11 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:40:11 WARN  No build server connected
+2024.08.19 22:40:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 22:40:11 INFO  time: compiled Practical09_f4dd477a3a in 71ms
+2024.08.19 22:40:11 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:40:11 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 22:56:53 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 22:56:54 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical04/P04_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:56:53 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical04/P04_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:56:55 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.08.19 22:56:55 INFO  Running List(/home/kavi/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -cp, /home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.4.1/cli_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M28/case-app_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.10/coursier-launcher_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.10/coursier-proxy-setup-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.13/slf4j-nop-2.0.13.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.7/core_2.13-3.9.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.4.1/build-module_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.4.1/config_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.4.1/scala3-graal_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.4.1/specification-level_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.2/sourcecode_3-0.4.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M28/case-app-annotations_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M28/case-app-util_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.10/coursier-cache_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.10/coursier-core_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.12.0/scala-collection-compat_3-2.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.7.9/core_2.13-1.7.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-shared_2.13.14/4.9.8/semanticdb-shared_2.13.14-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.4/test-runner_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.10.2/os-lib_3-0.10.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.0/pprint_3-0.9.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.16.0/scalajs-sbt-test-adapter_2.13-1.16.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.4.1/options_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.4.1/directives_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.4.1/scala-cli-bsp-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.4.1/test-runner_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.4.1/tasty-lib_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.10/coursier-util_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.3.0/scala-xml_2.13-2.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.14/scala-reflect-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.9.8/scalameta_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.17/scalapb-runtime_2.13-0.11.17.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.4/tools_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/junit-interface/0.13.3/junit-interface-0.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.0/geny_3-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.0/fansi_3-0.5.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.2/bloop-config_2.13-2.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.4.1/core_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.1/using_directives-1.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.4.1/build-macros_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.9.8/parsers_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.14/scalap-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.17/lenses_2.13-0.11.17.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.12.0/scala-collection-compat_2.13-2.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.4/nir_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.4/util_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.17-sc-2/bloop-rifle_2.13-1.5.17-sc-2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.10/coursier-jvm_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.9.8/trees_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.14/scala-compiler-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.10/coursier_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.10/coursier-env_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.9.8/common_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.2/sourcecode_2.13-0.4.2.jar, scala.cli.ScalaCli, bsp, --workspace, /tmp/metals-scala-cli10510714045143602247, --semantic-db-source-root, /home/kavi/Documents/UCSC 2024/scala/Practical04, /home/kavi/Documents/UCSC 2024/scala/Practical04/P04_Q03.scala)
+2024.08.19 22:56:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kavi/Documents/UCSC 2024/scala/Practical04/.metals/bsp.trace.json or /home/kavi/.cache/metals/bsp.trace.json
+2024.08.19 22:56:58 INFO  time: code lens generation in 3.51s
+2024.08.19 22:57:01 INFO  Connected to Scala CLI server v1.4.1
+2024.08.19 22:57:02 INFO  compiling metals-scala-cli10510714045143602247_65feb1cfe2-ac9ee5df3c (1 scala source)
+2024.08.19 22:57:02 INFO  time: compiled metals-scala-cli10510714045143602247_65feb1cfe2-ac9ee5df3c in 0.38s
+2024.08.19 22:57:03 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 22:57:03 INFO  time: indexed workspace in 2.8s
+2024.08.19 22:57:05 INFO  Scala CLI started for /home/kavi/Documents/UCSC 2024/scala/Practical04/P04_Q03.scala
+2024.08.19 22:58:44 INFO  Shut down connection with build server.
+2024.08.19 22:58:44 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 22:58:44 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:09 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:10 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:10 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:10 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:10 INFO  no build target found for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 23:00:11 WARN  no build target for: /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:11 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:12 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:13 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:13 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:00:13 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:14 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:00:15 ERROR /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:709)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:247)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.19 23:00:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:15 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:00:15 WARN  Could not find semantic tokens for: file:///home/kavi/Documents/UCSC%202024/scala/Practical09/P09_Q03.scala
+Aug 19, 2024 11:00:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6918
+2024.08.19 23:00:40 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:40 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 23:00:43 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:43 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+Aug 19, 2024 11:00:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6970
+Aug 19, 2024 11:00:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6973
+2024.08.19 23:00:45 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:45 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 23:00:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:49 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:00:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:50 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:00:59 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:00:59 INFO  time: compiled Practical09_f4dd477a3a in 84ms
+2024.08.19 23:01:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:01 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 23:01:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:03 INFO  time: compiled Practical09_f4dd477a3a in 57ms
+2024.08.19 23:01:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:07 INFO  time: compiled Practical09_f4dd477a3a in 89ms
+2024.08.19 23:01:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:08 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 23:01:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:13 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:01:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:15 INFO  time: compiled Practical09_f4dd477a3a in 0.1s
+2024.08.19 23:01:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:18 INFO  time: compiled Practical09_f4dd477a3a in 93ms
+2024.08.19 23:01:21 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:21 INFO  time: compiled Practical09_f4dd477a3a in 60ms
+2024.08.19 23:01:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:24 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:01:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:26 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:01:28 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:28 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:01:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:29 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:01:31 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:31 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 23:01:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:33 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 23:01:34 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:34 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 23:01:34 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala
+Aug 19, 2024 11:01:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7253
+2024.08.19 23:01:36 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:01:37 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:37 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 23:01:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:42 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 23:01:46 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:46 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 23:01:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:51 INFO  time: compiled Practical09_f4dd477a3a in 95ms
+2024.08.19 23:01:52 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:52 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:01:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:01:54 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 23:02:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:00 INFO  time: compiled Practical09_f4dd477a3a in 72ms
+2024.08.19 23:02:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:01 INFO  time: compiled Practical09_f4dd477a3a in 68ms
+2024.08.19 23:02:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:03 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 23:02:04 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:04 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 23:02:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:06 INFO  time: compiled Practical09_f4dd477a3a in 59ms
+2024.08.19 23:02:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:08 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:02:14 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:14 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:02:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:15 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 23:02:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:18 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+Aug 19, 2024 11:02:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7488
+2024.08.19 23:02:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:22 INFO  time: compiled Practical09_f4dd477a3a in 46ms
+2024.08.19 23:02:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:23 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:02:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+Aug 19, 2024 11:02:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7516
+2024.08.19 23:02:26 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:02:27 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:27 INFO  time: compiled Practical09_f4dd477a3a in 0.33s
+2024.08.19 23:02:34 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:34 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 23:02:38 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:38 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:02:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:42 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:02:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:44 INFO  time: compiled Practical09_f4dd477a3a in 73ms
+2024.08.19 23:02:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:47 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:02:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:54 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+Aug 19, 2024 11:02:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7658
+2024.08.19 23:02:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:56 INFO  time: compiled Practical09_f4dd477a3a in 66ms
+2024.08.19 23:02:57 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:02:57 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:03:01 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:03:01 INFO  time: compiled Practical09_f4dd477a3a in 71ms
+2024.08.19 23:09:08 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:08 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 23:09:11 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:11 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:09:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:13 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:09:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:16 INFO  time: compiled Practical09_f4dd477a3a in 87ms
+2024.08.19 23:09:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:18 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:09:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:23 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:09:25 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:25 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:09:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:29 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:09:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:30 INFO  time: compiled Practical09_f4dd477a3a in 50ms
+2024.08.19 23:09:32 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:32 INFO  time: compiled Practical09_f4dd477a3a in 96ms
+2024.08.19 23:09:34 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:34 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 23:09:35 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:09:35 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 23:10:55 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:10:55 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 23:11:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:11:00 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 23:11:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:11:06 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:11:12 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:11:12 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:11:15 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:11:15 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:11:19 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:11:19 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 23:11:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:11:22 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:11:25 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:11:25 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 23:12:04 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:04 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 23:12:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:06 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 23:12:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:07 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+Aug 19, 2024 11:12:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8340
+2024.08.19 23:12:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:30 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:12:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:36 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:12:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:48 INFO  time: compiled Practical09_f4dd477a3a in 0.21s
+2024.08.19 23:12:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:54 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 23:12:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:56 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:12:58 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:12:58 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:13:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:00 INFO  time: compiled Practical09_f4dd477a3a in 0.25s
+2024.08.19 23:13:31 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:31 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 23:13:35 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:35 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 23:13:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:36 INFO  time: compiled Practical09_f4dd477a3a in 0.25s
+2024.08.19 23:13:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:42 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:13:45 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:45 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 23:13:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:48 INFO  time: compiled Practical09_f4dd477a3a in 0.5s
+2024.08.19 23:13:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:50 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:13:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:51 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:13:55 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:13:55 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 23:14:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:00 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 23:14:05 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:05 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 23:14:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:24 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:14:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:29 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:14:35 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:35 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 23:14:42 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:42 INFO  time: compiled Practical09_f4dd477a3a in 0.3s
+2024.08.19 23:14:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:44 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:14:45 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:14:47 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:14:48 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:48 INFO  time: compiled Practical09_f4dd477a3a in 0.32s
+2024.08.19 23:14:53 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:53 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 23:14:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:54 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:14:56 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:56 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:14:58 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:14:58 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 23:15:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:03 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 23:15:06 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:06 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 23:15:07 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:07 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:15:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:13 INFO  time: compiled Practical09_f4dd477a3a in 0.1s
+Aug 19, 2024 11:15:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8980
+2024.08.19 23:15:16 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:16 INFO  time: compiled Practical09_f4dd477a3a in 75ms
+2024.08.19 23:15:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:23 INFO  time: compiled Practical09_f4dd477a3a in 0.2s
+2024.08.19 23:15:25 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:25 INFO  time: compiled Practical09_f4dd477a3a in 0.27s
+2024.08.19 23:15:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:30 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:15:35 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:35 INFO  time: compiled Practical09_f4dd477a3a in 0.11s
+2024.08.19 23:15:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:36 INFO  time: compiled Practical09_f4dd477a3a in 0.23s
+2024.08.19 23:15:41 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:41 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:15:44 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:15:44 INFO  time: compiled Practical09_f4dd477a3a in 0.31s
+2024.08.19 23:16:22 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:16:22 INFO  time: compiled Practical09_f4dd477a3a in 0.39s
+2024.08.19 23:16:27 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:16:27 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 23:16:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:16:30 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 23:16:54 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:16:54 INFO  time: compiled Practical09_f4dd477a3a in 0.45s
+2024.08.19 23:17:13 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:17:13 INFO  time: compiled Practical09_f4dd477a3a in 0.25s
+2024.08.19 23:17:18 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:17:18 INFO  time: compiled Practical09_f4dd477a3a in 0.41s
+2024.08.19 23:17:28 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:17:28 INFO  time: compiled Practical09_f4dd477a3a in 0.34s
+2024.08.19 23:19:50 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:19:50 INFO  time: compiled Practical09_f4dd477a3a in 0.39s
+2024.08.19 23:20:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:00 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 23:20:03 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:03 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 23:20:20 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:20 INFO  time: compiled Practical09_f4dd477a3a in 0.12s
+2024.08.19 23:20:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:23 INFO  time: compiled Practical09_f4dd477a3a in 0.13s
+2024.08.19 23:20:23 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:23 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:20:26 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:26 INFO  time: compiled Practical09_f4dd477a3a in 0.18s
+2024.08.19 23:20:29 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:29 INFO  time: compiled Practical09_f4dd477a3a in 0.26s
+2024.08.19 23:20:33 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:33 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 23:20:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:39 INFO  time: compiled Practical09_f4dd477a3a in 0.15s
+2024.08.19 23:20:46 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:46 INFO  time: compiled Practical09_f4dd477a3a in 0.14s
+2024.08.19 23:20:49 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:49 INFO  time: compiled Practical09_f4dd477a3a in 0.22s
+2024.08.19 23:20:51 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:51 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 23:20:53 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:20:53 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 23:21:20 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:21:20 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 23:21:24 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:21:24 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 23:21:30 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:21:30 INFO  time: compiled Practical09_f4dd477a3a in 0.24s
+2024.08.19 23:21:35 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:21:35 WARN  Could not load snapshot text for /home/kavi/Documents/UCSC 2024/scala/Practical09/P09_Q03.scala
+2024.08.19 23:21:35 INFO  time: compiled Practical09_f4dd477a3a in 0.37s
+2024.08.19 23:21:36 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:21:36 INFO  time: compiled Practical09_f4dd477a3a in 0.29s
+2024.08.19 23:21:39 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:21:39 INFO  time: compiled Practical09_f4dd477a3a in 0.16s
+2024.08.19 23:22:47 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:22:47 INFO  time: compiled Practical09_f4dd477a3a in 0.17s
+2024.08.19 23:22:58 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:22:58 INFO  time: compiled Practical09_f4dd477a3a in 0.19s
+2024.08.19 23:23:00 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:23:00 INFO  time: compiled Practical09_f4dd477a3a in 0.28s
+2024.08.19 23:23:02 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:23:02 INFO  time: compiled Practical09_f4dd477a3a in 0.45s
+2024.08.19 23:23:04 INFO  compiling practical09_f4dd477a3a (1 scala source)
+2024.08.19 23:23:04 INFO  time: compiled Practical09_f4dd477a3a in 0.34s
+Aug 19, 2024 11:28:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 19, 2024 11:28:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.19 23:35:57 INFO  Shutting down server
+2024.08.19 23:35:57 INFO  shutting down Metals
+2024.08.19 23:35:57 INFO  Shut down connection with build server.
+2024.08.19 23:35:57 INFO  Exiting server
+2024.08.19 23:37:41 INFO  Started: Metals version 1.3.5 in folders '/home/kavi/Documents/UCSC 2024/scala/Practical09' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@618411d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1123fd59]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@618411d]
+2024.08.19 23:37:42 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 23:37:44 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.08.19 23:37:47 INFO  Running List(/home/kavi/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -cp, /home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.4.1/cli_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M28/case-app_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.10/coursier-launcher_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.10/coursier-proxy-setup-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.13/slf4j-nop-2.0.13.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.7/core_2.13-3.9.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.4.1/build-module_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.4.1/config_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.4.1/scala3-graal_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.4.1/specification-level_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.2/sourcecode_3-0.4.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M28/case-app-annotations_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M28/case-app-util_3-2.1.0-M28.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.10/coursier-cache_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.10/coursier-core_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.12.0/scala-collection-compat_3-2.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.7.9/core_2.13-1.7.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-shared_2.13.14/4.9.8/semanticdb-shared_2.13.14-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.4/test-runner_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.10.2/os-lib_3-0.10.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.0/pprint_3-0.9.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.16.0/scalajs-sbt-test-adapter_2.13-1.16.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.4.1/options_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.4.1/directives_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.4.1/scala-cli-bsp-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.4.1/test-runner_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.4.1/tasty-lib_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.10/coursier-util_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.3.0/scala-xml_2.13-2.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.14/scala-reflect-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.9.8/scalameta_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.17/scalapb-runtime_2.13-0.11.17.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.4/tools_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/junit-interface/0.13.3/junit-interface-0.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.0/geny_3-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.0/fansi_3-0.5.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.2/bloop-config_2.13-2.0.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.4.1/core_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.1/using_directives-1.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.4.1/build-macros_3-1.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.9.8/parsers_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.14/scalap-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.17/lenses_2.13-0.11.17.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.12.0/scala-collection-compat_2.13-2.12.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.4/nir_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.4/util_3-0.5.4.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.17-sc-2/bloop-rifle_2.13-1.5.17-sc-2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.10/coursier-jvm_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.9.8/trees_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.14/scala-compiler-2.13.14.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.10/coursier_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.10/coursier-env_2.13-2.1.10.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.9.8/common_2.13-4.9.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar:/home/kavi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.2/sourcecode_2.13-0.4.2.jar, scala.cli.ScalaCli, bsp, /home/kavi/Documents/UCSC 2024/scala/Practical09)
+2024.08.19 23:37:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kavi/Documents/UCSC 2024/scala/Practical09/.metals/bsp.trace.json or /home/kavi/.cache/metals/bsp.trace.json
+2024.08.19 23:37:49 INFO  Shutting down server
+2024.08.19 23:37:49 INFO  shutting down Metals
+2024.08.19 23:37:52 INFO  Connected to Scala CLI server v1.4.1
+2024.08.19 23:37:52 INFO  Shut down connection with build server.
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@9640173[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 27]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.08.19 23:51:24 INFO  Started: Metals version 1.3.5 in folders '/home/kavi/Documents/UCSC 2024/scala/Practical09' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@217f8777]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1092747d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@217f8777]
+2024.08.19 23:51:25 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 23:51:26 INFO  Shutting down server
+2024.08.19 23:51:26 INFO  shutting down Metals
+2024.08.19 23:51:26 INFO  Exiting server
